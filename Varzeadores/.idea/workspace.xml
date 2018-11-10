@@ -1,8 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="webapp:war exploded" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="8a13884b-d6f6-451a-bef5-752aac048feb" name="Default Changelist" comment="" />
+    <list default="true" id="8f284bef-08fc-4fac-b62c-31dbd5ade7b7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webapp/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/Varzeadores_war_exploded.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Varzeadores.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Varzeadores.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/index.jsp" beforeDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/webapp/target/" />
+    <ignored path="$PROJECT_DIR$/api/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,48 +34,73 @@
     <session id="1325937813">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.open.time.4" value="1" />
           <entry key="project.opened" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="jsp" value="1" />
+          <entry key="html" value="1" />
+          <entry key="xml" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JSP" value="1" />
+          <entry key="HTML" value="1" />
+          <entry key="XML" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="jsp" value="11" />
+          <entry key="txt" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JSP" value="11" />
+          <entry key="PLAIN_TEXT" value="13" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/web/index.jsp">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/webapp/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="6" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="18" />
+            <state relative-caret-position="255">
+              <caret line="15" selection-start-line="15" selection-end-line="15" selection-end-column="53" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/api/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="45" lean-forward="true" selection-start-line="6" selection-start-column="45" selection-end-line="6" selection-end-column="45" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="13" lean-forward="true" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/web/index.jsp" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/webapp/pom.xml" />
       </list>
     </option>
   </component>
@@ -64,17 +110,34 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="C:/Maven" />
+        <option name="userSettingsFile" value="C:\Maven\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="10" />
     <option name="y" value="20" />
     <option name="width" value="1346" />
     <option name="height" value="698" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -85,29 +148,35 @@
             <path>
               <item name="Varzeadores" type="b2602c69:ProjectViewProjectNode" />
               <item name="Varzeadores" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Varzeadores" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Varzeadores" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SearchEverywhereHistoryKey" value="maven&#9;ACTION&#9;ActivateMavenProjectsToolWindow" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541807994079" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="preferences.applicationServers" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\UTFPR\5º Semestre\PW25S\Varzeadores\web" />
+      <recent name="D:\UTFPR\5º Semestre\PW25S\Varzeadores\webapp\src\main\webapp" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -123,11 +192,12 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="Varzeadores" type="JBossConfiguration" factoryName="Local" APPLICATION_SERVER_NAME="JBoss 14.0.1.Final" ALTERNATIVE_JRE_ENABLED="false">
+    <configuration name="Varzeadores" type="JBossConfiguration" factoryName="Local" APPLICATION_SERVER_NAME="JBoss 14.0.1.Final1" ALTERNATIVE_JRE_ENABLED="false">
       <option name="OPEN_IN_BROWSER" value="false" />
-      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/Varzeadores" />
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/webapp/" />
+      <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
-        <artifact name="Varzeadores:war exploded">
+        <artifact name="webapp:war exploded">
           <settings />
         </artifact>
       </deployment>
@@ -141,7 +211,7 @@
       </server-settings>
       <predefined_log_file id="JBoss" enabled="true" />
       <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="50573" />
+        <option name="DEBUG_PORT" value="52765" />
       </RunnerSettings>
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
         <option name="USE_ENV_VARIABLES" value="true" />
@@ -191,7 +261,7 @@
       <method v="2">
         <option name="Make" enabled="true" />
         <option name="BuildArtifacts" enabled="true">
-          <artifact name="Varzeadores:war exploded" />
+          <artifact name="webapp:war exploded" />
         </option>
       </method>
     </configuration>
@@ -201,30 +271,20 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="8a13884b-d6f6-451a-bef5-752aac048feb" name="Default Changelist" comment="" />
-      <created>1541627487254</created>
+      <changelist id="8f284bef-08fc-4fac-b62c-31dbd5ade7b7" name="Default Changelist" comment="" />
+      <created>1541806884869</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1541627487254</updated>
-      <workItem from="1541627491186" duration="500000" />
+      <updated>1541806884869</updated>
+      <workItem from="1541806887209" duration="1450000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="500000" />
-  </component>
-  <component name="TodoView">
-    <todo-panel id="selected-file">
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-    <todo-panel id="all">
-      <are-packages-shown value="true" />
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
+    <option name="totallyTimeSpent" value="1450000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Designer" />
       <window_info id="Image Layers" />
@@ -232,25 +292,26 @@
       <window_info id="Favorites" side_tool="true" />
       <window_info id="Capture Tool" />
       <window_info id="Web" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24962178" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19894099" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Application Servers" sideWeight="0.49924356" weight="0.32903227" />
-      <window_info anchor="bottom" id="Terminal" sideWeight="0.49924356" weight="0.32903227" />
+      <window_info anchor="bottom" id="Application Servers" weight="0.32903227" />
+      <window_info anchor="bottom" id="Terminal" />
       <window_info anchor="bottom" id="Event Log" sideWeight="0.50075644" side_tool="true" weight="0.32903227" />
-      <window_info active="true" anchor="bottom" id="Java Enterprise" sideWeight="0.49924356" visible="true" weight="0.32903227" />
+      <window_info anchor="bottom" id="Java Enterprise" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Messages" weight="0.32903227" />
+      <window_info anchor="bottom" id="Messages" sideWeight="0.49924356" weight="0.32903227" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924356" visible="true" weight="0.43064517" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32903227" />
+      <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="right" id="Palette" />
       <window_info anchor="right" id="Capture Analysis" />
       <window_info anchor="right" id="Database" />
+      <window_info active="true" anchor="right" id="Maven Projects" visible="true" weight="0.30635402" />
       <window_info anchor="right" id="Palette&#9;" />
       <window_info anchor="right" id="Theme Preview" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -265,20 +326,52 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/web/index.jsp">
+    <entry file="file://$PROJECT_DIR$/webapp/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="6" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="18" />
+        <state relative-caret-position="255">
+          <caret line="15" selection-start-line="15" selection-end-line="15" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webapp/src/main/webapp/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="45" lean-forward="true" selection-start-line="6" selection-start-column="45" selection-end-line="6" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="13" lean-forward="true" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
         </state>
       </provider>
     </entry>
   </component>
   <component name="masterDetails">
     <states>
+      <state key="ArquillianSettingsConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
-          <last-edited>Varzeadores:war exploded</last-edited>
+          <last-edited>webapp:war exploded</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -326,7 +419,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>Varzeadores</last-edited>
+          <last-edited>api</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -339,6 +432,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
+          <last-edited>Maven: junit:junit:4.11</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -349,5 +443,9 @@
         </settings>
       </state>
     </states>
+  </component>
+  <component name="mavenExecuteGoalHistory">
+    <option value="$PROJECT_DIR$" />
+    <option value="clean install" />
   </component>
 </project>
